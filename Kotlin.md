@@ -2,12 +2,24 @@
 
 ## Naming rules
 
-### Boolean 이름
+### 변수 이름
 
 - Boolean 변수의 시작은 is로 시작한다.
 ```kotiln
 var isXXX: Boolean = false
 ```
+
+- LiveData 계열 변수의 시작은 live로 한다.
+```kotiln
+var liveXXX : LiveData
+```
+
+- Flow 계열 변수의 끝은 flow로 한다.
+```kotiln
+var XXXFlow : Flow
+```
+
+### 함수 이름
 
 - liveData observe할 때 사용하는 함수 이름
 ```kotiln
